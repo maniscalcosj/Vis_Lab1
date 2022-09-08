@@ -1,0 +1,93 @@
+#page {
+  background-color: #F8F6BC;
+  margin: 20px 30px 20px;
+}
+
+.text {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+#header {
+  color: #900C3F;
+  font-weight: bold;
+}
+
+#instructions {
+  color: black;
+  font-weight: bold;
+}
+
+.image {
+  width: 340px;
+  height: 227px;
+  border: 8px solid #900C3F;
+  margin-right: 50px;
+}
+
+#generate {
+  float: center;
+  background-color: white;
+  border: 2px solid #900C3F;
+  color: black;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: all .2s ease-in-out;
+}
+
+#generate:hover {
+  background-color: #E9EAEA;
+  transform: scale(1.1);  
+}
+
+#content p {  
+  width: 600px;
+  height: auto;
+  border: 3px solid #900C3F;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  border-radius: 12px;
+  background-color: white;
+  line-height: normal;
+  color: black;
+}
+
+#footLine {
+  border: 3px solid #900C3F;
+  background-color: #900C3F;
+}
+
+#linkButton {
+  background-color: #900C3F;
+  border: 2px solid #900C3F;
+  color: #F8F6BC;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: all .2s ease-in-out;
+}
+
+#linkButton:hover {
+  background-color: blue;
+  transform: scale(1.1);
+}
+
+#citation {
+  width: 300px;
+  height: auto;
+}
+
+#citation p {
+  color: black;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+#citationLink {
+  text-decoration: none;
+  font-style: italic;
+}
+
+#citationLink:hover {
+  color: blue;
+}

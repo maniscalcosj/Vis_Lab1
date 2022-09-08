@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 1: HTML &#38 CSS</title>
+  </head>
+  <body id="page">
+    <div>
+      <h1 id="header" class="text">
+        Boston College Fun Facts    
+      </h1>
+    </div>   
+      <div class="images">
+        <img
+          class="image"
+          id ="photo1"
+          alt=""
+          src="https://www.bc.edu/content/dam/bc1/offices/ouc/OUC%20photos/gasson.1000x667.jpg.transform/gallery-medium/image.jpg"
+        />      
+        <img
+          class="image"
+          id="photo2"
+          alt=""
+          src="https://www.bc.edu/content/dam/bc1/offices/ouc/OUC%20photos/eagle.1000x667.jpg.transform/gallery-medium/image.jpg"
+        />
+        <img
+          class="image"
+          id="photo3"
+          alt=""
+          src="https://www.bc.edu/content/dam/bc1/offices/ouc/OUC%20photos/cheerleaders1000x667.jpg.transform/gallery-medium/image.jpg"
+        />
+      <div id="citation">
+        <p
+          class="text"
+        >
+          Images courtesy of 
+          <a
+            id="citationLink"
+            target="_blank"
+            href="https://www.bc.edu/content/bc-web/offices/office-of-university-communications/our-work/photography.html"
+          > 
+            Boston College's Office of University Communications 
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="text">
+      <p class="text" id="instructions">Click the button below to learn a random fact about Boston College! Go Eagles!</p>
+    </div>
+    <div 
+      class = "text"   
+      id="content" >
+    </div>
+    <h2>
+      <button 
+        class="text button"
+        id="generate" 
+        type="button">       
+        GENERATE RANDOM BC FACT
+      </button>
+    </h2>
+    <footer class="footer">
+      <hr id="footLine">
+      <div class="text">
+        <a
+          class="btn--link"
+          target="_blank"
+          href="https://www.bc.edu/"
+        >  
+          <button class="text button" type="button" id="linkButton"> 
+            Learn more about Boston College  
+          </button>
+        </a>
+      </div> 
+    </footer>
+  </body>
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+  <!-- CSS Reset -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+  <!-- Milligram CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+  <!--<link rel="stylesheet" href="style.css"> style sheet w/out Milligram (old)-->
+  <link rel="stylesheet" href="milligram_style.css"> <!-- style sheet w/Milligram (use)-->
+  <script defer src="main.js"></script> 
+</html>
